@@ -1261,5 +1261,40 @@ footer.footer .footer-bottom .footer-social .social-links a:last-child .name {
     display: none;
   }
 }
+.hero--blogpost {
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 200px;
+}
+.hero--blogpost .blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+.hero--blogpost h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.hero--blogpost p {
+  font-size: 1.125rem;
+  margin: 20px 0 20px;
+}
+
+.blogpost-date {
+  margin-bottom: 50px;
+}
+.blogpost-publish-time {
+  text-align: right;
+}
+
+.blogpost-date {
+  margin-bottom: 50px;
+}
+
+.blog-content-text {
+  margin-top: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
