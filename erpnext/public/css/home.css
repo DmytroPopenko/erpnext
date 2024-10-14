@@ -297,7 +297,7 @@ header.header.collapsed .top-bar {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  background-image: url("../files/background-header.png");
+  background-image: url("/assets/erpnext/images/background-header.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1156,6 +1156,7 @@ footer.footer .footer-bottom .footer-social .social-links a:last-child .name {
   justify-content: center;
   padding-bottom: 20px;
   scroll-snap-align: center;
+  align-items: flex-end;
 }
 .cards-container .card {
   width: 370px;
@@ -1188,6 +1189,7 @@ footer.footer .footer-bottom .footer-social .social-links a:last-child .name {
 .cards-container .card-top {
   width: 100%;
   padding: 0;
+  max-height: 200px;
 }
 .cards-container .card .bottom-card {
   display: flex;
